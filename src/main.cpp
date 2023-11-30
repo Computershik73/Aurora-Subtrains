@@ -63,7 +63,7 @@ int main(int argc, char *argv[])
     qmlRegisterType<SearchHint>("aurora.subtrains.searchHint", 1, 0, "SearchHint");
 
     QQuickView* qView = Aurora::Application::createView();
-    qView->setSource(Aurora::Application::pathTo("qml/ru.ilyavysotsky.aurora-subtrains.qml"));
+    qView->setSource(Aurora::Application::pathTo("qml/ru.ilyavysotsky.auroraSubtrains.qml"));
     qView->show();
 
     return sailfishRaspApp -> exec();
