@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=ru.ilyavysotsky.auroraSubtrains
+Exec=ru.ilyavysotsky.auroraSubtrains
+Name[ru]=Aurora-Subtrains
+Name=Aurora-Subtrains
+
+[X-Application]
+Permissions=Internet
+OrganizationName=ru.ilyavysotsky
+ApplicationName=auroraSubtrains
