@@ -8,3 +8,5 @@
 - обновлена используемая база станций и изменена логика работы с ней;
 - исправлено: при более чем 100 электричек между 2 станциями выводились не все;
 - добавлена кнопка свапа станций отправления и прибытия, чтобы быстро посмотреть расписание в обратную сторону.
+  
+![main](https://github.com/Computershik73/Aurora-Subtrains/assets/31623340/15f47ea7-8231-4772-be5b-b0e4143192d1)![route](https://github.com/Computershik73/Aurora-Subtrains/assets/31623340/b0b911d5-9cdb-4c04-b3e2-f8fdd68e18b4)![result](https://github.com/Computershik73/Aurora-Subtrains/assets/31623340/c4decd9a-f801-494b-8a2c-558552f9ffe3)
