@@ -209,7 +209,7 @@ Page {
 
                         searchTo.hints.model.clear();
 
-                        qmlHandler.getRoute(stationToEsr, stationFromEsr, dateLabel.selectedDate);
+                        qmlHandler.getRoute(stationToEsr, stationFromEsr, searchTo.is__meta, searchFrom.is__meta, dateLabel.selectedDate);
                         pageStack.push(Qt.resolvedUrl("ThreadsPage.qml"), {qmlHandler: qmlHandler});
                     }
                 }
