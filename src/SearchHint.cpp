@@ -6,7 +6,7 @@ SearchHint::SearchHint(QObject *parent) : QObject(parent)
 }
 
 
-SearchHint::SearchHint(const QString& title, const int code, const bool is_meta, QObject *parent)
+SearchHint::SearchHint(const QString& title, const QString& code, const bool is_meta, QObject *parent)
     : QObject(parent)
     , value(title, code, is_meta)
 {

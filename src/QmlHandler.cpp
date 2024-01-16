@@ -155,7 +155,7 @@ QList<QObject*> QmlHandler::getStationHints(QString text, int zone)
     QList<QObject*> hints;
 
     while (query.next()) {
-        int esr = query.value(rec.indexOf("esr")).toInt();
+        QString esr = query.value(rec.indexOf("esr")).toString();
         QString title = query.value(rec.indexOf("title")).toString();
         bool is_meta = query.value(rec.indexOf("is_meta")).toBool();
         hints.append(new SearchHint(title, esr, is_meta));
@@ -178,7 +178,7 @@ QList<QObject *> QmlHandler::getZonesLike(QString text)
     while (query.next()) {
         zones.append(new SearchHint(
                          query.value("settlementTitle").toString()
-                         , query.value("id").toInt(), true
+                         , query.value("id").toString(), true
                          ));
     }
 
@@ -196,7 +196,7 @@ QList<QObject *> QmlHandler::getAllZones()
     while (query.next()) {
         zones.append(new SearchHint(
                          query.value("settlementTitle").toString()
-                         , query.value("id").toInt(), true
+                         , query.value("id").toString(), true
                          ));
     }
 

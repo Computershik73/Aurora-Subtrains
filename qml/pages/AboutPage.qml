@@ -15,7 +15,7 @@ Page {
             anchors.horizontalCenter: parent.horizontalCenter
         }
         Label {
-            text: qsTr("Версия 0.3.4")
+            text: qsTr("Версия 0.3.5")
             anchors.horizontalCenter: parent.horizontalCenter
         }
 

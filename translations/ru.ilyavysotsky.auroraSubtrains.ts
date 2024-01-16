@@ -15,7 +15,7 @@
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="18"/>
-        <source>Версия 0.3.4</source>
+        <source>Версия 0.3.5</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

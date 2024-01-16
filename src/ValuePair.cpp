@@ -1,11 +1,11 @@
 #include "ValuePair.h"
 
 ValuePair::ValuePair()
-    : code(0)
+    : code("")
 {
 }
 
-ValuePair::ValuePair(const QString& string, const int code, bool is_meta)
+ValuePair::ValuePair(const QString& string, const QString& code, bool is_meta)
     : string(string), code(code), is_meta(is_meta)
 {
 }

@@ -44,6 +44,6 @@ ValuePair NearestZoneFinder::getZoneById(const int zone)
     query.exec();
 
     query.next();
-    return ValuePair(query.value("settlementTitle").toString(), zone, true);
+    return ValuePair(query.value("settlementTitle").toString(), QString::number(zone), true);
 }
 
